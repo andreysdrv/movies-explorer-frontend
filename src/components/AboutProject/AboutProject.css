@@ -27,6 +27,8 @@
 .about__inner {
   display: flex;
   justify-content: space-between;
+  margin: 70px 0 110px 0;
+
 }
 
 .about__text-container {
@@ -35,10 +37,6 @@
 
 .about__text-container:last-child {
   margin-right: 0;
-}
-
-.about__inner {
-  margin: 70px 0 110px 0;
 }
 
 .about__subtitle {

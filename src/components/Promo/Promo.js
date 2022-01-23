@@ -1,8 +1,8 @@
 import React from 'react'
 import './Promo.css'
-import { NavTab } from '../NavBar/NavTab'
+import NavTab from '../NavBar/NavTab'
 
-export const Promo = () => {
+const Promo = () => {
   return (
     <section className="promo">
       <div className="promo__inner">
@@ -14,3 +14,5 @@ export const Promo = () => {
     </section>
   )
 }
+
+export default Promo

@@ -2,7 +2,7 @@
 import React from 'react'
 import './NavTab.css'
 
-export const NavTab = () => {
+const NavTab = () => {
   return (
     <nav className="nav">
       <a href="#" className="nav__link">О проекте</a>
@@ -11,3 +11,5 @@ export const NavTab = () => {
     </nav>
   )
 }
+
+export default NavTab

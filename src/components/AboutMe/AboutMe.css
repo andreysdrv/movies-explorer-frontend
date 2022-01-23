@@ -1,0 +1,98 @@
+.aboutme {
+  /* min-height: 625px; */
+  padding: 110px 0 100px 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  }
+  
+.aboutme__container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+    
+.aboutme__title {
+  margin: 0;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #000;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.aboutme__inner {
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme__info-box {
+  max-width: 600px;
+}
+
+.aboutme__name {
+  margin: 0 0 18px 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.aboutme__description {
+  margin: 0 0 26px 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+}
+
+.aboutme__info {
+  margin: 0 0 99px 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+}
+
+.aboutme__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.aboutme__links-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.aboutme__link {
+  text-decoration: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  transition: .2s;
+}
+
+.aboutme__link:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.aboutme__photo {
+  background: url(../../images/aboutme-photo.jpg) center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 270px;
+  height: 327px;
+}

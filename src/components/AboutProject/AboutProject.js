@@ -1,7 +1,7 @@
 import React from 'react'
 import  './AboutProject.css'
 
-export const AboutProject = () => {
+const AboutProject = () => {
   return (
     <section className="about">
       <div className="about__container">
@@ -30,3 +30,5 @@ export const AboutProject = () => {
     </section>
   )
 }
+
+export default AboutProject
